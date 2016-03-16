@@ -1,0 +1,32 @@
+{
+  "name": "fis3-postpackager-loader-x",
+  "version": "0.1.0",
+  "description": "基于fis3-postpackager-loader修改，使得合成后的js/css文件名字可配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiss-scaffold/fis3-postpackager-loader-x.git"
+  },
+  "keywords": [
+    "fis3",
+    "loader",
+    "fis3-postpackager-loader"
+  ],
+  "author": "fis",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/fiss-scaffold/fis3-postpackager-loader-x/issues"
+  },
+  "homepage": "https://github.com/fiss-scaffold/fis3-postpackager-loader-x",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "fis3": "^3.0.17",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "source-map": "^0.5.3"
+  }
+}
